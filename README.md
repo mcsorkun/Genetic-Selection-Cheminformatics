@@ -15,7 +15,7 @@ Genetic algorithms are heuristic methods of optimization, inspired by evolution.
 ![alt text](https://raw.githubusercontent.com/mcsorkun/Genetic-Selection-Cheminformatics/master/images/genetic-score-change.png)
 
 
-Each feature is represented as a gene [0 or 1] and the set of features as a chromosome. The score (fitness) of each chromosome is determined by the cross-validation result of training. We used LogisticRegresssion() for classification tasks and LinearRegression() for regression tasks while evaluating fitness. (more advanced methods can be used for more accurate fitness, but time costs must be considered.)
+Each feature is represented as a gene [0 or 1] and the set of features as a chromosome. The score (fitness) of each chromosome is determined by the cross-validation result of training. We used LogisticRegresssion() for classification tasks and LinearRegression() for regression tasks while evaluating the fitness. (more advanced methods can be used for more accurate fitness, but time costs must be considered.)
 
 The output can be controlled via "verbose" parameter. While verbose=1, the result of each generation is printed.
 
