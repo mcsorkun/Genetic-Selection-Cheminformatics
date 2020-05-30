@@ -1,6 +1,25 @@
 # Genetic-Selection-Cheminformatics
 
-This project contains feature selection by genetic algorithm for cheminformatics applications.
+This project contains feature selection by genetic algorithm for cheminformatics applications (also applicable to other datasets). We have provided sample application on the following 4 data sets (2 chemical, 2 toy datasets).
+
+Classification:
+- BBBP [1] (Blood-Brain Barrier Penetration dataset)
+- Iris (Iris plants dataset)
+
+Regression:
+- AqSolDB [2] (Aqueous Solubility dataset)
+- Boston (Boston house prices dataset)
+
+Genetic algorithm is a heuristic method of optimization, inspired by evolution. Basically, it aims to create more successful individuals by transferring the best genes to new generations (see image below). In this application, we have implemented the genetic algorithm to select the features that best represent the target.
+
+![alt text](https://raw.githubusercontent.com/mcsorkun/Genetic-Selection-Cheminformatics/master/images/genetic-score-change.png)
+
+
+
+
+![alt text](https://raw.githubusercontent.com/mcsorkun/Genetic-Selection-Cheminformatics/master/images/genetic-algorithm-feature-selection.jpg)
+
+
 
 ### Dependencies
 
