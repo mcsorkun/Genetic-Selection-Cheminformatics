@@ -1,4 +1,4 @@
-# Genetic-Selection-Cheminformatics
+# Genetic Algorithm for Feature Selection on Cheminformatics
 
 This project contains a feature selection method by genetic algorithm for cheminformatics applications (also applicable to other datasets).  The method only needs SMILES for cheminformatics applications. Using Mordred package [1], it generates around 200 features. Genetic algorithm selects the most effective features among them. The repository provides example applications on the following 4 datasets (2 molecular, 2 toy datasets).
 
