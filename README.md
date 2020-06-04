@@ -1,6 +1,6 @@
 # Genetic-Selection-Cheminformatics
 
-This project contains feature selection by genetic algorithm for cheminformatics applications (also applicable to other datasets).  The method only needs SMILES for cheminformatics applications. Using Mordred package [1], it generates around 200 features. Genetic algorithm selects the most effective features among them. The repository provides example applications on the following 4 datasets (2 molecular, 2 toy datasets).
+This project contains a feature selection method by genetic algorithm for cheminformatics applications (also applicable to other datasets).  The method only needs SMILES for cheminformatics applications. Using Mordred package [1], it generates around 200 features. Genetic algorithm selects the most effective features among them. The repository provides example applications on the following 4 datasets (2 molecular, 2 toy datasets).
 
 Classification:
 - BBBP [2] (Blood-Brain Barrier Penetration dataset)
