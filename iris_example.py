@@ -4,7 +4,7 @@ Created on Tue May 26 18:35:38 2020
 
 @author: Murat Cihan Sorkun
 
-Feature Selection be Genetic Algorithm: An example on Iris dataset 
+Feature Selection by Genetic Algorithm: An example on Iris dataset 
 """
 
 from sklearn.datasets import load_iris
